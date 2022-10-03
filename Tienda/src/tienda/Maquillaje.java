@@ -1,3 +1,4 @@
+//Moreno Nahuel
 package tienda;
 
 public class Maquillaje extends Producto {
@@ -12,7 +13,7 @@ public class Maquillaje extends Producto {
 
     @Override
     public String toString(){
-        String s = "Maquillaje: " + this.nombre + "\n Precio: " + this.precio + "\n Color: " + this.color + "\n Tipo: " + this.tipo;
+        String s = "\n Maquillaje: " + this.nombre + "\n Precio: " + this.precio + "\n Color: " + this.color + "\n Tipo: " + this.tipo;
         return s;
     }
     

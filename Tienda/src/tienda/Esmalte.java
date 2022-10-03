@@ -16,7 +16,7 @@ public class Esmalte extends Producto {
     
     @Override
     public String toString(){
-        String s = "Esmalte: " + this.nombre + "\n Precio: " + this.precio + "\n Color: " + this.color + "\n Tipo: " + this.tipo + "\n Tiene Brillo: " + this.tieneBrillo;
+        String s = "\n Esmalte: " + this.nombre + "\n Precio: " + this.precio + "\n Color: " + this.color + "\n Tipo: " + this.tipo + "\n Tiene Brillo: " + this.tieneBrillo;
         return s;
     }
     

@@ -1,4 +1,4 @@
-
+//Marmol Sofia
 package tienda;
 
 public class CremasFaciales extends Producto {
@@ -16,7 +16,7 @@ public class CremasFaciales extends Producto {
     
     @Override
     public String toString(){
-        String s = "Crema: " + this.nombre + "\n Precio: " + this.precio + "\n Contenido: " + this.contenido + "\n ¿Protección contra rayos UV? " + this.tieneUV + "\n Tipo: " + this.tipo;
+        String s = "\n Crema: " + this.nombre + "\n Precio: " + this.precio + "\n Contenido: " + this.contenido + "\n ¿Protección contra rayos UV? " + this.tieneUV + "\n Tipo: " + this.tipo;
         return s;
     }
     

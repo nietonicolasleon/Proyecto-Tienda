@@ -1,4 +1,4 @@
-
+//Micheli Lucio
 package tienda;
 
 
@@ -16,7 +16,7 @@ public class Pintalabios extends Producto {
 
     @Override
     public String toString(){
-        String s = "Maquillaje: " + this.nombre + "\n Precio: " + this.precio + "\n Color: " + this.color + "\n Tiene Fluor " + this.isFluor + "\n Tamaño: " + this.tamaño;
+        String s = "\n Pintalabios: " + this.nombre + "\n Precio: " + this.precio + "\n Color: " + this.color + "\n Tiene Fluor " + this.isFluor + "\n Tamaño: " + this.tamaño;
         return s;
     }
     
