@@ -7,7 +7,7 @@ public class Pintalabios extends Producto {
     private boolean isFluor;
     private String tamaño;
     
-    public Pintalabios(String n, String p, String c, boolean i, String t){
+    public Pintalabios(String n, double p, String c, boolean i, String t){
         super(n,p);
         this.color = c;
         this.isFluor = i;
@@ -28,7 +28,7 @@ public class Pintalabios extends Producto {
         this.nombre = nombre;
     }
 
-    public float getPrecio() {
+    public double getPrecio() {
         return precio;
     }
 
