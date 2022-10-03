@@ -13,6 +13,13 @@ public class Venta {
         this.nroVenta = Venta.cantVentas;
     }
     
+    public void EmitirRecibo(){
+        System.out.println("########## Venta N°: " + this.nroVenta + " ##########");
+        System.out.println("Usted ha comprado: ");
+        System.out.println(ListarProductos());
+        System.out.println("########################################");
+    }
+    
     public void AgregarProducto(Producto p){
         this.lProductos.add(p);
     }
