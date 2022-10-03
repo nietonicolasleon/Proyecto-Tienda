@@ -17,6 +17,7 @@ public class Venta {
         System.out.println("########## Venta N°: " + this.nroVenta + " ##########");
         System.out.println("Usted ha comprado: ");
         System.out.println(ListarProductos());
+        System.out.println("Total: " + TotalPrecio());
         System.out.println("########################################");
     }
     
@@ -34,5 +35,13 @@ public class Venta {
             s += this.lProductos.get(i).toString();
         }
         return s;
+    }
+    
+    public double TotalPrecio(){
+        double p = 0;
+        for (int i = 0; i < this.lProductos.size(); i++) {
+            p += this.lProductos.get(i).getPrecio();
+        }
+        return p;
     }
 }
