@@ -20,18 +20,22 @@ public class CremasFaciales extends Producto {
         return s;
     }
     
+    @Override
     public String getNombre() {
         return nombre;
     }
 
+    @Override
     public void setNombre(String nombre) {
         this.nombre = nombre;
     }
 
-    public float getPrecio() {
+    @Override
+    public double getPrecio() {
         return precio;
     }
 
+    @Override
     public void setPrecio(double precio) {
         this.precio = precio;
     }
